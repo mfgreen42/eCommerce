@@ -1,6 +1,14 @@
-
+html {
+    box-sizing: border-box;
+}
 
 
 .section-wrapper{
     height: 250px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: black;
+    
 }
