@@ -2,13 +2,92 @@ html {
     box-sizing: border-box;
 }
 
-
 .section-wrapper{
-    height: 250px;
+    height: 600px;
 }
+
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font: black;
+    color: black;
     
 }
+
+header{
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.cart {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.cart ul {
+    list-style-type: none;
+    position: absolute;
+    display: inline;
+    top: 0.7rem;
+    right: 1rem;   
+}
+
+.small-pot {
+    display: flex;
+    justify-content: center; 
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.section-wrapper-home img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-wrapper-home{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+.top-left{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+.bottom-right{
+    position:absolute;
+    bottom: 3rem;
+    right: 2rem;
+}
+
+
+
