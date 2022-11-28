@@ -121,16 +121,37 @@ h1 {
 }
 
 .section-wrapper-products {
-   height: 1000px;
+   height: 1850px;
    width: 100%;
+}
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+}
 
+.flex-container {
+    display: grid;
+    grid-template-areas: 
+    "to-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
 }
 
 .image-container {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 16rem;
-    margin: auto;
-    text-align: left;
+    margin: 10px;
+    text-align: left;  
+}
+
+.image-container img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 1px solid black;
 }
 .price{
     color: black;
