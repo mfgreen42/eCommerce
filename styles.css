@@ -94,33 +94,60 @@ a:visited {
 
 .section-wrapper-about{
     margin-top: 5rem;
-    height: 1047px;
+    height: 650px;
     width: 100%;
 
 }
-.section-wrapper-about h1 {
+
+h1 {
     float: left;
 }
 
 .right-photo img{
     float: right;
     max-width: 300px;
-    height: auto;
-    
-   
+    height: auto;  
 }
 
 .left-photo img{
     float: left;
     max-width: 300px;
-    height: auto;
-    
-    
+    height: auto;  
 }
 
 .section-wrapper-about p {
     margin: 1rem auto;
+    width: 80%;
 }
 
+.section-wrapper-products {
+   height: 1000px;
+   width: 100%;
+
+}
+
+.image-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 16rem;
+    margin: auto;
+    text-align: left;
+}
+.price{
+    color: black;
+    font-size: 22px;
+    text-align: right;
+    }
+.image-container button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #bf7631;
+    width: 115px;
+    font-size: 12px;
+    }
+.image-container a {
+    color: #bf7631;
+}
 
 
