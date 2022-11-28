@@ -124,9 +124,7 @@ h1 {
    height: 1850px;
    width: 100%;
 }
-.title {
-    
-}
+
 
 .flex-container {
     display: flex;
@@ -190,3 +188,10 @@ input[type=text], select {
     cursor: pointer;
     float: right;
   }
+footer {
+    background-color: #bf7631;
+}
+
+.icons {
+    display: inline;
+}
