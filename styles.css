@@ -125,18 +125,13 @@ h1 {
    width: 100%;
 }
 .title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    text-align: left;
+    
 }
 
 .flex-container {
-    display: grid;
-    grid-template-areas: 
-    "to-l top top-r"
-    "mid-l mid mid-r"
-    "bot-l bot bot-r";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .image-container {
@@ -170,5 +165,18 @@ h1 {
 .image-container a {
     color: #bf7631;
 }
-
-
+.section-wrapper-contact {
+    width: 100%;
+    height: 500px;
+}
+.section-wrapper-contact button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #bf7631;
+    width: 78px;
+    height: 34px;
+    float: right;
+    font-size: 12px;
+}
