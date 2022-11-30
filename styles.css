@@ -1,4 +1,4 @@
-,
+
 ::before,
 ::after {
     margin: 0;
@@ -12,6 +12,9 @@ html {
     font-size: 62.5%;
 }
 
+h2 {
+    float: left;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
@@ -60,11 +63,13 @@ nav li {
 .small-pot {
     display: flex;
     justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
 }
 .small-pot img {
-    position: absolute;
-    margin-top: -0.5rem;
-    width: 2.5rem;
+    /* position: absolute; */
+    /* margin-top: -0.5rem; */
+    width: 2.5rem; 
     
 }
 
@@ -109,10 +114,9 @@ a:visited {
 
 }
 
-h1 {
-    float: left;
+.about-us {
+    width: 100%;
 }
-
 .right-photo img{
     float: right;
     max-width: 300px;
@@ -125,9 +129,16 @@ h1 {
     height: auto;  
 }
 
+.para-one {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
 .section-wrapper-about p {
     margin: 1rem auto;
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-wrapper-products {
